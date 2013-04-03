@@ -109,7 +109,7 @@
 								<li>Ruby</li>
 								<li>PHP</li>
 								<li>Perl</li>
-								<li>VB.NET *shudder*</li>
+								<li>VB.NET</li>
 								<li>No samples, but suds seems to be leader for Python</li>
 								<li>Easiest integration elsewhere is probably <a href="http://json.org/">JSON</a></li>
 							</ul>
@@ -128,6 +128,7 @@
 								<li>Auth also supported via cookie, IP</li>
 								<li>Supports JSONP via _callback param</li>
 								<li>_fields parameter allows filtering of output files</li>
+								<li>If using CSV serializer, add _flatten=true parameter for best results.</li>
 							</ul>
 						</div>
 					</section>
@@ -168,14 +169,14 @@
 						</div>
 					</section>
 					<section>
-						<h2>Best practiceS (cont'd)</h2>
+						<h2>Best practices (cont'd)</h2>
 						<div>
 							<br>
 						</div>
 						<div>
 							<ul>
 								<li>Still over the public web</li>
-								<li>..so use low-integerial # of retries</li>
+								<li>..so use low-integral # of retries</li>
 								<li>Circuit Breaker pattern!</li>
 								<li>SSL/TLS, if desired</li>
 								<li>Cache results for frequent requests or ref data queries</li>
